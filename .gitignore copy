@@ -1,0 +1,6 @@
+.venv
+./deployment/ansible/inventory
+./deployment/ansible/airflow/logs
+./sourcing/env
+./sourcing/airflow.cfg
+.DS_Store

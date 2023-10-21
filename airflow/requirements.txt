@@ -1,0 +1,5 @@
+apache-airflow
+azure-storage-blob
+hubspot-api-client
+llama-index
+pymilvus
