@@ -11,11 +11,15 @@ import pendulum
 
 HOST = "localhost"
 PORT = "19530"
+AZURE_CONNECTION_STRING = os.environ.get('AZURE_CONNECTION_STRING')
+AZURE_CONTAINER_NAME = os.environ.get('AZURE_CONTAINER_NAME')
 
 
-def get_azure_storage():
+def get_azure_storage_and_push_xcom(**kwargs):
     blob = BlobClient.from_connection_string(conn_str="", container_name="rawdata")
     blob_data = blob.download_blob()
+    print(blob_data)
+    kwargs['ti'].xcom_push(key='questionanswer', value=blob_data)
     
 
 
@@ -23,14 +27,14 @@ def transform_to_json():
     return 'transform to json'
 
 def import_milvus():
-    blob = BlobClient.from_connection_string(conn_str="", container_name="mycontainer", blob_name="my_blob")
+    blob = BlobClient.from_connection_string(conn_str=AZURE_CONNECTION_STRING, container_name=AZURE_CONTAINER_NAME, blob_name="Q_A_for_admin.txt")
     blob_data = blob.download_blob()
 
     JsonDataReader = download_loader("JsonDataReader")
     loader = JsonDataReader()
     documents = loader.load_data(blob_data)
     # Put JSON into Milvus
-    GPTMilvusIndex.from_documents(documents, host=HOST, port=PORT, overwrite=True) 
+    GPTMilvusIndex.from_documents(documents, host=HOST, port=PORT, overwrite=True)
 
 with DAG(
     dag_id="Extract_dataset",
