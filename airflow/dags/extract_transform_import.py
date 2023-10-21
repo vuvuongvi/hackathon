@@ -14,7 +14,7 @@ PORT = "19530"
 
 
 def get_azure_storage():
-    blob = BlobClient.from_connection_string(conn_str="DefaultEndpointsProtocol=https;AccountName=aicmlops;AccountKey=9PHnVpZwN5g6Kz1ASprLuTXWF52etXCBfn6CDrpcmz6+9WRpij+AfZRG8LfPgQ8e37jUasfi0g8j+AStD+ZzlA==;EndpointSuffix=core.windows.net", container_name="rawdata")
+    blob = BlobClient.from_connection_string(conn_str="", container_name="rawdata")
     blob_data = blob.download_blob()
     
 
@@ -23,7 +23,7 @@ def transform_to_json():
     return 'transform to json'
 
 def import_milvus():
-    blob = BlobClient.from_connection_string(conn_str="DefaultEndpointsProtocol=https;AccountName=aicmlops;AccountKey=9PHnVpZwN5g6Kz1ASprLuTXWF52etXCBfn6CDrpcmz6+9WRpij+AfZRG8LfPgQ8e37jUasfi0g8j+AStD+ZzlA==;EndpointSuffix=core.windows.net", container_name="mycontainer", blob_name="my_blob")
+    blob = BlobClient.from_connection_string(conn_str="", container_name="mycontainer", blob_name="my_blob")
     blob_data = blob.download_blob()
 
     JsonDataReader = download_loader("JsonDataReader")
