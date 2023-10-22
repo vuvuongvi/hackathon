@@ -4,3 +4,4 @@
 ./sourcing/env
 ./sourcing/airflow.cfg
 .DS_Store
+.env
