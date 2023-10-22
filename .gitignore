@@ -5,3 +5,4 @@
 ./sourcing/airflow.cfg
 .DS_Store
 .env
+__pycache__/
