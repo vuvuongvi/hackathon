@@ -2,4 +2,5 @@ apache-airflow
 azure-storage-blob
 hubspot-api-client
 llama-index
-pymilvus
+pymilvus==2.2.5
+
