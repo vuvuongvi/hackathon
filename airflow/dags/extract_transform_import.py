@@ -47,14 +47,14 @@ def transform_to_json(raw_text_file: str, transform_json_file: str,
     print(f"PROCESSING PARSER DATA....")
     parsed_resume =  RESUMEPARSER.parse_resume(file_object=raw_text_file)
 
-    # flatten json to correct format
-    flattened_data = []
-    for item in parsed_resume:
-        values = [value for value in item.values()]
-        flattened_data.extend(values)
+    # # flatten json to correct format
+    # flattened_data = []
+    # for item in parsed_resume:
+    #     values = [value for value in item.values()]
+    #     flattened_data.extend(values)
 
     # write result data to storage
-    save_json_to_storage(data=flattened_data, 
+    save_json_to_storage(data=parsed_resume, 
                      file_object=transform_json_file,
                      storage_conn_str=storage_conn_str,
                      storage_container_name=storage_container_name_transform)
