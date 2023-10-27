@@ -84,11 +84,12 @@ def run_discord_bot():
     @client.tree.command(name="chat-model", description="Switch different chat model")
     @app_commands.choices(choices=[
         app_commands.Choice(name="Official GPT-3.5", value="OFFICIAL"),
-        app_commands.Choice(name="Ofiicial GPT-4.0", value="OFFICIAL-GPT4"),
-        app_commands.Choice(name="Website ChatGPT-3.5", value="UNOFFICIAL"),
-        app_commands.Choice(name="Website ChatGPT-4.0", value="UNOFFICIAL-GPT4"),
-        app_commands.Choice(name="Bard", value="Bard"),
-        app_commands.Choice(name="Bing", value="Bing"),
+        app_commands.Choice(name="Private_model", value="PRIVATEMODEL"),
+        # app_commands.Choice(name="Ofiicial GPT-4.0", value="OFFICIAL-GPT4"),
+        # app_commands.Choice(name="Website ChatGPT-3.5", value="UNOFFICIAL"),
+        # app_commands.Choice(name="Website ChatGPT-4.0", value="UNOFFICIAL-GPT4"),
+        # app_commands.Choice(name="Bard", value="Bard"),
+        # app_commands.Choice(name="Bing", value="Bing"),
     ])
 
     async def chat_model(interaction: discord.Interaction, choices: app_commands.Choice[str]):
@@ -100,19 +101,22 @@ def run_discord_bot():
             if choices.value == "OFFICIAL":
                 client.openAI_gpt_engine = "gpt-3.5-turbo"
                 client.chat_model = "OFFICIAL"
-            elif choices.value == "OFFICIAL-GPT4":
-                client.openAI_gpt_engine = "gpt-4"
-                client.chat_model = "OFFICIAL"
-            elif choices.value == "UNOFFICIAL":
-                client.openAI_gpt_engine = "gpt-3.5-turbo"
-                client.chat_model = "UNOFFICIAL"
-            elif choices.value == "UNOFFICIAL-GPT4":
-                client.openAI_gpt_engine = "gpt-4"
-                client.chat_model = "UNOFFICIAL"
-            elif choices.value == "Bard":
-                client.chat_model = "Bard"
-            elif choices.value == "Bing":
-                client.chat_model = "Bing"
+            elif choices.value == "PRIVATEMODEL":
+                client.openAI_gpt_engine = "" 
+                client.chat_model = "PRIVATEMODEL" 
+            # elif choices.value == "OFFICIAL-GPT4":
+            #     client.openAI_gpt_engine = "gpt-4"
+            #     client.chat_model = "OFFICIAL"
+            # elif choices.value == "UNOFFICIAL":
+            #     client.openAI_gpt_engine = "gpt-3.5-turbo"
+            #     client.chat_model = "UNOFFICIAL"
+            # elif choices.value == "UNOFFICIAL-GPT4":
+            #     client.openAI_gpt_engine = "gpt-4"
+            #     client.chat_model = "UNOFFICIAL"
+            # elif choices.value == "Bard":
+            #     client.chat_model = "Bard"
+            # elif choices.value == "Bing":
+            #     client.chat_model = "Bing"
             else:
                 raise ValueError("Invalid choice")
 
