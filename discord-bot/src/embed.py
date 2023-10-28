@@ -11,7 +11,7 @@ from llama_index import (
     StorageContext,
 )
 
-def load_data():
+def load_data(path):
     from pathlib import Path
     from llama_index import download_loader
 
