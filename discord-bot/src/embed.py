@@ -43,7 +43,7 @@ def agent_qa(path='./data/qa_dataset.docx'):
 
     print('hihi')
     print(os.path.join(os.getcwd(), "src/data/qa_dataset.docx"), flush=True)
-    documents = load_data(os.path.join(os.getcwd(), "/src/data/qa_dataset.docx"))
+    documents = load_data(os.path.join(os.getcwd(), "src/data/qa_dataset.docx"))
     index = embedding(documents)
     query_engine = index.as_query_engine(response_mode="tree_summarize")
 
