@@ -14,6 +14,9 @@ from discord import app_commands
 
 from revChatGPT.V3 import Chatbot
 from revChatGPT.V1 import AsyncChatbot
+
+from embed import agent_qa
+
 from Bard import Chatbot as BardChatbot
 from EdgeGPT.EdgeGPT import Chatbot as EdgeChatbot
 
@@ -34,6 +37,7 @@ class aclient(discord.Client):
         self.openAI_password = os.getenv("OPENAI_PASSWORD")
         self.openAI_API_key = os.getenv("OPENAI_API_KEY")
         self.openAI_gpt_engine = os.getenv("GPT_ENGINE")
+        self.agent_engine = agent_qa()
         self.chatgpt_session_token = os.getenv("SESSION_TOKEN")
         self.chatgpt_access_token = os.getenv("ACCESS_TOKEN")
         self.chatgpt_paid = os.getenv("PUID")
