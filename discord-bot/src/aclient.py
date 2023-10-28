@@ -14,7 +14,6 @@ from discord import app_commands
 
 from revChatGPT.V3 import Chatbot
 from revChatGPT.V1 import AsyncChatbot
-
 from embed import agent_qa
 
 from Bard import Chatbot as BardChatbot
