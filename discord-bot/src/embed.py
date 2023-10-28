@@ -40,7 +40,6 @@ def agent_qa(path='./data/qa_dataset.docx'):
     print(os.listdir(), flush=True)
     print("load data", flush=True)
     print(os.getcwd(), flush=True)
-
     print('hihi')
     print(os.path.join(os.getcwd(), "src/data/qa_dataset.docx"), flush=True)
     documents = load_data(os.path.join(os.getcwd(), "src/data/qa_dataset.docx"))
