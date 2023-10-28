@@ -1,0 +1,124 @@
+{
+    "rows": [
+        {
+            "question": "Có thể hỏi thông tin xe buýt ở đâu?",
+            "answer": "Bạn có thể xem thông tin xe buýt, đăng ký bus và check in/check out tại myFPT -> All apps -> eBus\nNgoài ra đối với mỗi site sẽ có contact point của SSC hỗ trợ bus: \nHCM: HaNTT33\nHoà Lạc: ThanhVT9"
+        },
+        {
+            "question": "Where can I ask for information about buses?",
+            "answer": "You can find information about buses, register for the bus, and check in/check out at myFPT -> All apps -> eBus\nIn addition, each site will have a contact point of SSC to support the bus:\nHCM: HaNTT33\nHoà Lạc: ThanhVT9"
+        },
+        {
+            "question": "バスに関する情報をどこで聞けばいいですか？",
+            "answer": "バスに関する情報、バスの登録、チェックイン/チェックアウトは、myFPT -> All apps -> eBusで確認できます\nまた、各サイトにはSSCの連絡先があり、バスをサポートします:\nHCM：HaNTT33\nHoà Lạc：ThanhVT9"
+        },
+        {
+            "question": "Nếu có việc bận hoặc và chưa thể tham gia khoá DayOne, mình có thể skip lớp này và học say được không/ Mình có cần tham gia học offline DayOne hay không?",
+            "answer": "Bạn có thể không cần tham gia khoá Dayone offline trực tiếp tại từng site, Admin/HR của đơn vị sẽ hỗ trợ bạn lấy các vật dụng cần thiết như quà onboard, thẻ NV,... Tuy nhiên, bạn sẽ phải hoàn thành các khoá học online “Induction Training” và “ISM\" bắt buộc dành cho nhân viên mới để không bị khoá account FSOFT."
+        },
+        {
+            "question": "If I am busy or unable to attend the DayOne course, can I skip it and learn by myself? Do I need to attend the offline DayOne?",
+            "answer": "You may not need to attend the DayOne course offline at each site. The Admin/HR of the unit will support you in obtaining necessary items such as onboard gifts, NV card, etc. However, you will have to complete the mandatory online courses \"Induction Training\" and \"ISM\" for new employees to avoid being locked out of the FSOFT account."
+        },
+        {
+            "question": "忙しい場合やDayOneのコースに参加できない場合、スキップして自分で学ぶことはできますか？オフラインのDayOneに参加する必要がありますか？",
+            "answer": "各サイトで直接Dayoneコースに参加する必要はありません。ユニットの管理者/HRは、オンボードギフト、NVカードなどの必要なアイテムをサポートします。ただし、新入社員にはFSOFTアカウントがロックされないように、必須のオンラインコース「Induction Training」と「ISM」を完了する必要があります。"
+        },
+        {
+            "question": "Mình cần chuẩn bị gì cho buổi đầu onboard tại đơn vị?",
+            "answer": "Bạn cần chuẩn bị đủ các giấy tờ theo thư mời của HR (vd: sơ yếu lý lịch, bản sao CCCD, giấy khám sức khoẻ,...). Ngoài ra, bạn nên mang theo laptop cá nhân để tiện làm việc trong trường hợp chưa được cấp ngay tài sản công ty."
+        },
+        {
+            "question": "What do I need to prepare for the first day of onboarding at the unit?",
+            "answer": "You need to prepare all the documents according to the invitation from HR (e.g., CV, copy of ID card, health check certificate, etc.). In addition, you should bring your personal laptop for convenience in case company assets are not immediately provided."
+        },
+        {
+            "question": "ユニットでのオンボーディングの初日に準備する必要がありますか？",
+            "answer": "HRからの招待に従って、すべての文書を準備する必要があります（例：履歴書、身分証のコピー、健康診断書など）。さらに、会社の資産が直ちに提供されない場合に備えて、個人用のノートパソコンを持参することをお勧めします。"
+        },
+        {
+            "question": "Thông tin account FSOFT tôi có thể lấy ở đâu?",
+            "answer": "Bạn sẽ nhận được mail hướng dẫn của HR về quy trình onboard và các tài liệu cần chuẩn bị trước khi đến buổi học DayOne. Trong mail đó sẽ có thông tin về account cũng như password và hướng dẫn thay đổi password. Bạn có thể thao tác đổi password này trước tại nhà và bắt đầu sử dụng được account truy cập vào các trang nội bộ. \nBạn có thể tự thao tác đổi password tại trang https://ess.fsoft.com.vn/"
+        },
+        {
+            "question": "Where can I get information about my FSOFT account?",
+            "answer": "You will receive an instructional email from HR regarding the onboarding process and the documents to prepare before attending the DayOne session. In that email, there will be information about your account, password, and instructions for changing the password. You can change this password at home and start using the account to access internal websites. \nYou can change the password yourself at https://ess.fsoft.com.vn/"
+        },
+        {
+            "question": "FSOFTアカウントの情報はどこで入手できますか？",
+            "answer": "DayOneセッションに参加する前に、HRからオンボーディングプロセスと準備する必要のある文書に関する指示が含まれたメールを受け取ります。そのメールには、アカウント、パスワード、パスワードの変更手順に関する情報が含まれています。このパスワードは自宅で変更し、社内のウェブサイトにアクセスするためのアカウントを使用できます。 \nパスワードはhttps://ess.fsoft.com.vn/で自分で変更することができます。"
+        },
+        {
+            "question": "Tôi đã onboard nhưng có vài trang web nội bộ tôi vẫn chưa truy cập được?",
+            "answer": "Sau khi onboard và nộp đầy đủ giấy tờ cá nhân cho HR, bạn sẽ cần đợi 5-7 ngày làm việc để HR nhập thông tin trên tool, sau đó các tool sync dữ liệu thì bạn mới có thể truy cập được tất cả các trang web nội bộ."
+        },
+        {
+            "question": "I have onboarded, but I still can't access some internal websites?",
+            "answer": "After onboarding and submitting all personal documents to HR, you will need to wait for 5-7 working days for HR to enter the information in the tool, and then the data synchronization will allow you to access all internal websites."
+        },
+        {
+            "question": "オンボーディングは完了しましたが、一部の内部ウェブサイトにアクセスできません。",
+            "answer": "オンボーディング後、HRにすべての個人文書を提出した後、HRがツールに情報を入力するのを5-7営業日待つ必要があります。その後、データ同期によりすべての内部ウェブサイトにアクセスできるようになります。"
+        },
+        {
+            "question": "Tôi cần hỗ trợ dùng internet cho máy cá nhân?",
+            "answer": "Bạn có thể truy cập trang https://ess.fsoft.com.vn/, chọn mục “Wifi F-BYOD\" và làm theo hướng dẫn để truy cập wifi BYOD dành cho thiết bị cá nhân."
+        },
+        {
+            "question": "I need support for using the internet on my personal device?",
+            "answer": "You can access the website https://ess.fsoft.com.vn/, select the section \"Wifi F-BYOD\" and follow the instructions to access the BYOD wifi for personal devices."
+        },
+        {
+            "question": "個人のデバイスでインターネットを使用するためのサポートが必要です。",
+            "answer": "ウェブサイトhttps://ess.fsoft.com.vn/にアクセスし、「Wifi F-BYOD」というセクションを選択し、個人デバイス用のBYOD wifiにアクセスするための手順に従ってください。"
+        },
+        {
+            "question": "Tôi cần tham khảo thủ tục claim FPT-care",
+            "answer": "Để tham khảo thủ tục claim, mình truy cập app myFPT -> FPT Care -> Payment Guide\nĐể tham khảo về quyền lợi tương ứng theo level của nhân viên, mình truy cập myFPT -> FPT Care -> Benefit\nNgoài ra, contact point của các HR hỗ trợ giải đáp rõ hơn: HCM: GiangTHQ/ HN-HL: NhanPT10"
+        },
+        {
+            "question": "I need to refer to the procedure for claiming FPT-care?",
+            "answer": "To refer to the claim procedure, you can access the app myFPT -> FPT Care -> Payment Guide\nTo refer to the corresponding benefits according to the employee's level, you can access myFPT -> FPT Care -> Benefit\nIn addition, the contact points of HR can provide more detailed answers: HCM: GiangTHQ/ HN-HL: NhanPT10"
+        },
+        {
+            "question": "FPT-careの請求手続きを参照する必要があります。",
+            "answer": "請求手続きを参照するには、アプリmyFPT -> FPT Care -> Payment Guideにアクセスできます\n従業員のレベルに応じた対応する特典を参照するには、myFPT -> FPT Care -> Benefitにアクセスできます\nまた、HRの連絡先はより詳細な回答を提供できます：HCM：GiangTHQ/ HN-HL：NhanPT10"
+        },
+        {
+            "question": "Mình cần hỗ trợ về internet/VDI/network rule thì có thể hỏi ai?",
+            "answer": "Mình có thể post câu hỏi lên group https://fpt.workplace.com/groups/fsoft.it hoặc gửi mail về itc@fpt.com/it.support@fpt.com để được IT hỗ trợ nhanh nhất. Trong trường hợp cần gấp, bạn có thể liên hệ hotline ITC: 1900636448"
+        },
+        {
+            "question": "Who can I ask for support regarding internet/VDI/network rules?",
+            "answer": "You can post your question to the group https://fpt.workplace.com/groups/fsoft.it or send an email to itc@fpt.com/it.support@fpt.com for the fastest IT support. In urgent cases, you can contact the ITC hotline: 1900636448"
+        },
+        {
+            "question": "インターネット/VDI/ネットワークルールに関してサポートを求めることはできますか？",
+            "answer": "質問をグループhttps://fpt.workplace.com/groups/fsoft.itに投稿するか、最速のITサポートのためにitc@fpt.com/it.support@fpt.comにメールを送信できます。緊急の場合は、ITCホットライン1900636448に連絡することができます。"
+        },
+        {
+            "question": "Tại site HCM, muốn liên hệ để điều chỉnh nhiệt độ máy lạnh trong khoang làm việc thì hỏi ai?",
+            "answer": "Bạn có thể gửi mail về fhcm.bql@fpt.com để bộ phận kỹ thuật của toà nhà hỗ trợ. Trường hợp cần gấp có thể gọi về số 028 3736 2323 Ext: 34567 để được xử lý kịp thời (Sđt của kỹ thuật F-town 3)"
+        },
+        {
+            "question": "At the HCM site, who can I contact to adjust the air conditioning temperature in the workspace?",
+            "answer": "You can send an email to fhcm.bql@fpt.com for support from the building's technical department. In urgent cases, you can call the number 028 3736 2323 Ext: 34567 for timely assistance (Phone number of F-town 3 technical department)."
+        },
+        {
+            "question": "HCMサイトでは、ワークスペースのエアコンの温度を調整するために誰に連絡すればよいですか？",
+            "answer": "ビルの技術部門からのサポートのために、fhcm.bql@fpt.comにメールを送信できます。緊急の場合は、タイムリーなサポートのために、028 3736 2323内線: 34567に電話することができます（F-town 3技術部門の電話番号）。"
+        },
+        {
+            "question": "Tôi muốn mượn thẻ tạm để ra vào khoang thì liên hệ ai?",
+            "answer": "Bạn có thể đến Lễ tân tại từng site để được hỗ trợ mượn thẻ tạm."
+        },
+        {
+            "question": "Who can I contact to borrow a temporary access card to enter the workspace?",
+            "answer": "You can go to the reception at each site to be supported in borrowing a temporary access card."
+        },
+        {
+            "question": "ワークスペースに入るための一時アクセスカードを借りるために誰に連絡すればよいですか？",
+            "answer": "一時アクセスカードを借りるために、各サイトの受付に行くことができます。"
+        }
+    ]
+}
