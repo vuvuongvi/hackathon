@@ -32,7 +32,7 @@ def embedding(documents):
 
     return index
 
-def agent_qa(path='../data/qa_dataset.docx'):
+def agent_qa(path='./data/qa_dataset.docx'):
     import os
     import sys
     
