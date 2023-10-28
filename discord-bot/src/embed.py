@@ -35,8 +35,12 @@ def embedding(documents):
 def agent_qa(path='./data/qa_dataset.docx'):
     import os
     import sys
-    sys.path.append("hackathon/discord-bot/src/data")
-    documents = load_data(path)
+    # sys.path.append("hackathon/discord-bot/src/data")
+    print("load data", flush=True)
+    print(os.getcwd(), flush=True)
+    print('hihi')
+    print(os.path.join(os.getcwd(), "/data/qa_dataset.docx"), flush=True)
+    documents = load_data(os.path.join(os.getcwd(), "/data/qa_dataset.docx"))
     index = embedding(documents)
     query_engine = index.as_query_engine(response_mode="tree_summarize")
 
