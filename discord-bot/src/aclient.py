@@ -3,7 +3,13 @@ import json
 import discord
 import asyncio
 from typing import Union
-
+import openai
+from llama_index import (
+    VectorStoreIndex,
+    SimpleDirectoryReader,
+    load_index_from_storage,
+    StorageContext,
+)
 from src import responses
 from src.log import logger
 from auto_login.AutoLogin import GoogleBardAutoLogin, MicrosoftBingAutoLogin
@@ -15,12 +21,61 @@ from discord import app_commands
 from revChatGPT.V3 import Chatbot
 
 from revChatGPT.V1 import AsyncChatbot
-from src.embed import agent_qa
+from abc import ABC, abstractmethod
 
 from Bard import Chatbot as BardChatbot
 from EdgeGPT.EdgeGPT import Chatbot as EdgeChatbot
 
 load_dotenv()
+
+def load_data_docx(path):
+    from pathlib import Path
+    from llama_index import download_loader
+
+    DocxReader = download_loader("DocxReader")
+    loader = DocxReader()
+    documents = loader.load_data(file=Path(path))
+    return documents
+
+def embedding(documents):
+    index = VectorStoreIndex.from_documents(documents)
+    index.set_index_id("vector_index")
+    index.storage_context.persist(os.path.join(os.getcwd(), "./storage"))
+    # rebuild storage context
+    storage_context = StorageContext.from_defaults(persist_dir="storage")
+    # load index
+    index = load_index_from_storage(storage_context, index_id="vector_index")
+
+    return index
+
+class QA_Agent(Chatbot):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        os.environ["OPENAI_API_KEY"] = self.api_key
+        openai.api_key = os.environ["OPENAI_API_KEY"]
+        print(os.getcwd(), flush=True)
+        root = os.getcwd()
+        path = root + "/src/data/qa_dataset.docx"
+        print(path)
+        documents = load_data_docx(path)
+
+        print(documents)
+        index = embedding(documents)
+        query_engine = index.as_query_engine(response_mode="tree_summarize")
+        self.agent_qa = query_engine
+    
+    
+    @abstractmethod
+    def ask(self, query):
+        print('----------')
+        print(query)
+        response = self.agent_qa.query(query)
+        return response
+
+    
+
+
+
 
 class aclient(discord.Client):
     def __init__(self) -> None:
@@ -37,7 +92,6 @@ class aclient(discord.Client):
         self.openAI_password = os.getenv("OPENAI_PASSWORD")
         self.openAI_API_key = os.getenv("OPENAI_API_KEY")
         self.openAI_gpt_engine = os.getenv("GPT_ENGINE")
-        self.agent_engine = agent_qa()
         self.chatgpt_session_token = os.getenv("SESSION_TOKEN")
         self.chatgpt_access_token = os.getenv("ACCESS_TOKEN")
         self.chatgpt_paid = os.getenv("PUID")
@@ -79,7 +133,7 @@ class aclient(discord.Client):
                 "PUID": self.chatgpt_paid
             })
         elif self.chat_model == "OFFICIAL":
-                return Chatbot(api_key=self.openAI_API_key, engine=self.openAI_gpt_engine, system_prompt=prompt)
+                return QA_Agent(api_key=self.openAI_API_key, engine=self.openAI_gpt_engine, system_prompt=prompt)
         elif self.chat_model == "Bard":
             return BardChatbot(secure_1psid=self.bard_secure_1psid, secure_1psidts=self.bard_secure_1psidts)
         elif self.chat_model == "Bing":

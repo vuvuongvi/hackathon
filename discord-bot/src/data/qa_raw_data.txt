@@ -1,0 +1,35 @@
+﻿Q: Có thể hỏi thông tin xe buýt ở đâu?
+A: Bạn có thể xem thông tin xe buýt, đăng ký bus và check in/check out tại myFPT -> All apps -> eBus
+Ngoài ra đối với mỗi site sẽ có contact point của SSC hỗ trợ bus: 
+HCM: HaNTT33
+Hoà Lạc: ThanhVT9
+
+Q: Nếu có việc bận hoặc và chưa thể tham gia khoá DayOne, mình có thể skip lớp này và học say được không/ Mình có cần tham gia học offline DayOne hay không?
+A: Bạn có thể không cần tham gia khoá Dayone offline trực tiếp tại từng site, Admin/HR của đơn vị sẽ hỗ trợ bạn lấy các vật dụng cần thiết như quà onboard, thẻ NV,... Tuy nhiên, bạn sẽ phải hoàn thành các khoá học online “Induction Training” và “ISM" bắt buộc dành cho nhân viên mới để không bị khoá account FSOFT. 
+
+Q: Mình cần chuẩn bị gì cho buổi đầu onboard tại đơn vị?
+A: Bạn cần chuẩn bị đủ các giấy tờ theo thư mời của HR (vd: sơ yếu lý lịch, bản sao CCCD, giấy khám sức khoẻ,...). Ngoài ra, bạn nên mang theo laptop cá nhân để tiện làm việc trong trường hợp chưa được cấp ngay tài sản công ty.
+
+Q: Thông tin account FSOFT tôi có thể lấy ở đâu? 
+A: Bạn sẽ nhận được mail hướng dẫn của HR về quy trình onboard và các tài liệu cần chuẩn bị trước khi đến buổi học DayOne. Trong mail đó sẽ có thông tin về account cũng như password và hướng dẫn thay đổi password. Bạn có thể thao tác đổi password này trước tại nhà và bắt đầu sử dụng được account truy cập vào các trang nội bộ. 
+Bạn có thể tự thao tác đổi password tại trang https://ess.fsoft.com.vn/
+
+Q: Tôi đã onboard nhưng có vài trang web nội bộ tôi vẫn chưa truy cập được? 
+A: Sau khi onboard và nộp đầy đủ giấy tờ cá nhân cho HR, bạn sẽ cần đợi 5-7 ngày làm việc để HR nhập thông tin trên tool, sau đó các tool sync dữ liệu thì bạn mới có thể truy cập được tất cả các trang web nội bộ. 
+
+Q: Tôi cần hỗ trợ dùng internet cho máy cá nhân?
+A: Bạn có thể truy cập trang https://ess.fsoft.com.vn/, chọn mục “Wifi F-BYOD" và làm theo hướng dẫn để truy cập wifi BYOD dành cho thiết bị cá nhân. 
+
+Q: Tôi cần tham khảo thủ tục claim FPT-care
+A: Để tham khảo thủ tục claim, mình truy cập app myFPT -> FPT Care -> Payment Guide
+Để tham khảo về quyền lợi tương ứng theo level của nhân viên, mình truy cập myFPT -> FPT Care -> Benefit
+Ngoài ra, contact point của các HR hỗ trợ giải đáp rõ hơn: HCM: GiangTHQ/ HN-HL: NhanPT10
+
+Q: Mình cần hỗ trợ về internet/VDI/network rule thì có thể hỏi ai?
+A: Mình có thể post câu hỏi lên group https://fpt.workplace.com/groups/fsoft.it hoặc gửi mail về itc@fpt.com/it.support@fpt.com để được IT hỗ trợ nhanh nhất. Trong trường hợp cần gấp, bạn có thể liên hệ hotline ITC: 1900636448
+
+Q: Tại site HCM, muốn liên hệ để điều chỉnh nhiệt độ máy lạnh trong khoang làm việc thì hỏi ai? 
+A: Bạn có thể gửi mail về fhcm.bql@fpt.com để bộ phận kỹ thuật của toà nhà hỗ trợ. Trường hợp cần gấp có thể gọi về số 028 3736 2323 Ext: 34567 để được xử lý kịp thời (Sđt của kỹ thuật F-town 3)
+
+Q: Tôi muốn mượn thẻ tạm để ra vào khoang thì liên hệ ai?
+A: Bạn có thể đến Lễ tân tại từng site để được hỗ trợ mượn thẻ tạm.
